@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+    font-family: 'Sedgwick Ave', cursive;
+    font-style: bold;
+}
+h1{
+font-size: 72px;
+color: yellow;
+font-family: 'Sedgwick Ave', cursive;
+margin-top: 45vh;
+margin-left: 75vh;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: (61,245,167);
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 25vh;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(9, 111, 224);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+h2{
+ padding-left: 5px;
+}
